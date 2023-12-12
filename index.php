@@ -11,7 +11,7 @@
 <?php
 
 try {
-    $conexion = new PDO("mysql:host=localhost;dbname=amigos_peludos;charset=utf8", "root", "");
+    $conexion = new PDO("mysql:host=roundhouse.proxy.rlwy.net;dbname=railway;charset=utf8", "root", "GFB2ED-ggd5AB16h14FFgGG-A2a44a32");
     echo "Conectado";
 } catch (PDOException $e) {
     echo "Error de Conectamos";
