@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap");
+html,
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #e0f4ff !important;
+  text-align: justify !important;
+}
+
+.container-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 63vh;
+  background-position: center center;
+  color: #e0f4ff;
+}
+.nav-item > button,
+.card-body > button {
+  background-color: #062c80 !important;
+}
+.Text-Hero {
+  height: 56vh;
+  width: 70%;
+}
+.Text-Hero > h1 {
+  font-size: 4em;
+}
+#RegistroModal, #InicioModal{
+  backdrop-filter: blur(5px);
+}
+.modal-content, .modal-content > .fomulario-modal > form > input, .modal-content > .fomulario-modal > form > select{
+background-color: #e0f4ff !important;
+color: #062c80 !important;
+}
+.card-body > p {
+  text-align: justify !important;
+}
+.card {
+  background-color: #e0f4ff !important;
+}
+.card-body > p {
+  color: #062c80 !important;
+}
+.table-img {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.table-imgL {
+  position: relative;
+  float: left;
+  margin: 0 auto;
+  width: 400px;
+  height: 200px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tabla {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tabla,
+.tabla > table > tbody,
+.tabla > table > tbody > tr,
+.tabla > table > tbody > tr > td {
+  background-color: #062c80 !important;
+  color: #e0f4ff !important;
+  border: none !important;
+}
+/* table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.tdL {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  background-color: #e0f4ff !important;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #062c80 !important;
+}
+.footer-logo > img {
+  width: 100px;
+  height: 100px;
+}
+.footer-logo-datos {
+  display: flex;
+  flex-direction: row;
+}
+.footer-RRSS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-RRSS-iconos > svg {
+  color: #062c80 !important;
+  width: 25px;
+  height: 25px;
+}
+.tablaP {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.tablaP,
+.tablaP > table > tbody,
+.tablaP > table > tbody > tr,
+.tablaP > table > tbody > tr > td{
+  background-color: #e0f4ff !important;
+  color: #062c80 !important;
+}
+.tablaP > table > tbody,.tablaP > table > tr {
+  border: 3px dashed #062c80;
+}
+.tablaP > table > tbody > tr > td > div> button{
+  background-color: #87C4FF !important;
+  color: #062c80 !important;
+  font-weight: bolder;
+}
+.filtros {
+  width: 70%;
+}
+.filtros-Input > input,
+.filtros-Input {
+  width: 25% !important;
+  background-color: #e0f4ff !important;
+  border-color: #062c80 !important;
+  color: #062c80 !important;
+}
+.filtros-Input > span {
+  background-color: #e0f4ff !important;
+  border-color: #062c80 !important;
+  color: #062c80 !important;
+}
+.frase-Pie {
+  background-color: #062c80 !important;
+  color: #e0f4ff !important;
+}
+.conocenos-main-h1 {
+  background-color: #062c80 !important;
+  color: #e0f4ff !important;
+}
+.conocenos-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #062c80 !important;
+  color: #e0f4ff !important;
+}
+.conocenos-main-p {
+  width: 40%;
+  align-items: start;
+}
+.conocenos-main > img {
+  width: 40%;
+  height: 80%;
+}
+.contactanos-main {
+  background-color: #e0f4ff !important;
+  color: #062c80 !important;
+}
+.contactanos-formulario {
+  background-color: #062c80 !important;
+  color: #e0f4ff !important;
+}
+.contactanos-formulario-NomTel > div {
+  width: 40%;
+}
+.contactanos-formulario-Correo > div {
+  width: 87%;
+}
+.contactanos-formulario-Submit {
+  display: flex;
+  width: 8%;
+}
+.contactanos-formulario-Submit > button {
+  background-color: #e0f4ff !important;
+  color: #062c80 !important;
+}
+th{
+  background-color: #062c80 !important;
+  color: #e0f4ff !important;
+}
+.tablaP > table > tbody > tr > td > div> .btn-success{
+  background-color: #198754 !important;
+}
+.tablaP > table > tbody > tr > td > div> .btn-danger{
+  background-color: #dc3545 !important;
+}
+.NuevoPeludo-formulario-Submit > button, .form-file{
+ background-color: #87C4FF !important;
+ color: #062c80 !important;
+}
+.NuevoPeludo-formulario-div{
+  border: 3px dashed #062c80;
+  border-radius: 3%;
+}
